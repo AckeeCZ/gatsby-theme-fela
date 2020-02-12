@@ -1,40 +1,26 @@
 {
   "name": "gatsby-theme-fela",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Gatstby theme that adds fela to your project",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Lukáš Horák <lukas.horak@ackee.cz> | Filip Kubík <filip.kubik@ackee.cz>",
   "main": "index.js",
   "dependencies": {
     "fela-monolithic": "^11.0.2",
     "fela-plugin-named-keys": "^10.5.0",
     "fela-plugin-unit": "^10.5.0",
     "gatsby": "^2.13.9",
-    "gatsby-image": "^2.2.4",
     "gatsby-plugin-fela": "0.0.8",
-    "gatsby-plugin-manifest": "^2.2.1",
-    "gatsby-plugin-offline": "^2.2.1",
-    "gatsby-plugin-react-helmet": "^3.1.0",
-    "gatsby-plugin-sharp": "^2.2.3",
-    "gatsby-source-filesystem": "^2.1.2",
-    "gatsby-transformer-sharp": "^2.2.1",
-    "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "gatsby": "^2.13.9",
-    "gatsby-plugin-sharp": "^2.2.3",
-    "gatsby-transformer-sharp": "^2.2.1",
-    "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "peerDependencies": {
     "gatsby": "^2.13.9",
-    "gatsby-plugin-sharp": "^2.2.3",
-    "gatsby-transformer-sharp": "^2.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
@@ -52,9 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "hhttps://github.com/AckeeCZ/gatsby-theme-fela/"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/AckeeCZ/gatsby-theme-fela/issues"
   }
 }
