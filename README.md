@@ -42,4 +42,4 @@ when all packages are installed then
 
 `yarn workspace site develop`
 
-For more scripts chek out the scripts in **package.json**
+For more available commands, check scripts field in **package.json**

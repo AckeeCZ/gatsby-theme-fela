@@ -2,8 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { ThemeProvider, FelaRenderer } from "react-fela"
 
-import fonts from "../fonts"
-import styles, { theme } from "../styles"
+import fonts from "../../../site/src/fonts"
+import styles, { theme } from "../../../site/src/styles"
 
 const FelaProvider = ({ children }) => (
   <ThemeProvider theme={theme}>
