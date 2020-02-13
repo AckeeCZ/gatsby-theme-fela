@@ -1,8 +1,8 @@
 import React, { PureComponent } from "react"
 import PropTypes from "prop-types"
-import { ThemeProvider, FelaRenderer, RendererProvider } from "react-fela"
+import { ThemeProvider, RendererProvider } from "react-fela"
 
-import { theme } from "../../src/styles"
+import { theme } from "../styles"
 
 import * as Config from './config';
 

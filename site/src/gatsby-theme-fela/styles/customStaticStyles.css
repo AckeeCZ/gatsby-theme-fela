@@ -1,0 +1,19 @@
+h1 {
+    color: blue
+}
+
+.custom-static {
+    padding-right: 1rem;
+}
+
+.custom-class-1 {
+    color: aqua
+}
+
+.custom-class-2 {
+    color: tomato
+}
+
+.custom-class-3 {
+    color: magenta
+}

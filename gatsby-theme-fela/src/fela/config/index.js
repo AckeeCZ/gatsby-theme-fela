@@ -1,6 +1,5 @@
-import { Consts, theme } from '../dependencies';
+import { Consts, theme, styles } from '../dependencies';
 
-import resets from '../../styles/resets.css'
 import defaultFonts  from '../../fonts'
 
 import plugins from './plugins';
@@ -13,6 +12,6 @@ export const rendererConfig = {
     theme,
 };
 
-export const staticCSS = [resets];
+export const staticCSS = styles;
 
 export const fonts = defaultFonts

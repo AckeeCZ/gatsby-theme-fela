@@ -1,6 +1,7 @@
 import * as Consts from '../constants';
+import { default as styles } from '../styles';
 
-export { Consts };
+export { Consts, styles };
 
 export { default as React, PureComponent } from 'react';
 export { default as PropTypes } from 'prop-types';
@@ -15,4 +16,3 @@ export { default as felaPluginNamedKeys } from 'fela-plugin-named-keys';
 export { default as felaPluginFriendlyPseudoClass } from 'fela-plugin-friendly-pseudo-class';
 export { default as felaPluginExpandShorthand } from 'fela-plugin-expand-shorthand';
 
-export { layout, theme, resets } from '../styles';
