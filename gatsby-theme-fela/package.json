@@ -7,8 +7,11 @@
   "main": "index.js",
   "dependencies": {
     "fela-monolithic": "^11.0.2",
-    "fela-plugin-named-keys": "^10.5.0",
-    "fela-plugin-unit": "^10.5.0",
+    "fela-plugin-expand-shorthand": "^11.0.2",
+    "fela-plugin-friendly-pseudo-class": "^11.0.2",
+    "fela-plugin-named-keys": "^11.0.2",
+    "fela-plugin-unit": "^11.0.2",
+    "fela-plugin-validator": "^11.0.2",
     "gatsby": "^2.13.9",
     "gatsby-plugin-fela": "0.0.8",
     "react": "^16.8.6",
@@ -38,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "hhttps://github.com/AckeeCZ/gatsby-theme-fela/"
+    "url": "https://github.com/AckeeCZ/gatsby-theme-fela/"
   },
   "bugs": {
     "url": "https://github.com/AckeeCZ/gatsby-theme-fela/issues"

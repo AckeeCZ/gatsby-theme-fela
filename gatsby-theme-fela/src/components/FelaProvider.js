@@ -1,30 +1,45 @@
-import React from "react"
+import React, { PureComponent } from "react"
 import PropTypes from "prop-types"
-import { ThemeProvider, FelaRenderer } from "react-fela"
+import { ThemeProvider, FelaRenderer, RendererProvider } from "react-fela"
 
-import fonts from "../../../site/src/fonts"
-import styles, { theme } from "../../../site/src/styles"
+import { theme } from "../../src/styles"
 
-const FelaProvider = ({ children }) => (
-  <ThemeProvider theme={theme}>
-    <FelaRenderer>
-      {renderer => {
-        fonts.forEach(font => {
-          renderer.renderFont(font.name, font.files, font.options)
-        })
+import * as Config from './config';
 
-        styles.forEach(style => {
-          renderer.renderStatic(style.toString())
-        })
+import { createRenderer } from 'fela';
 
-        return <>{children}</>
-      }}
-    </FelaRenderer>
-  </ThemeProvider>
-)
+import { applyStaticCSS, applyFonts } from '../utilities';
 
-FelaProvider.propTypes = {
-  children: PropTypes.node.isRequired,
+class FelaProvider extends PureComponent {
+  static propTypes = {
+      children: PropTypes.node.isRequired,
+  };
+
+  constructor(props) {
+      super(props);
+
+      this.renderer = createRenderer(Config.rendererConfig);
+  }
+
+  componentDidMount() {
+      applyStaticCSS(this.renderer, Config.staticCSS);
+      applyFonts(this.renderer, Config.fonts);
+  }
+
+  comopnentWillUnmount() {
+      this.renderer.clear();
+  }
+
+  render() {
+      const { children } = this.props;
+
+      return (
+          <RendererProvider renderer={this.renderer}>
+              <ThemeProvider theme={theme}>{children}</ThemeProvider>
+          </RendererProvider>
+      );
+  }
 }
+
 
 export default FelaProvider

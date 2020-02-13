@@ -2879,6 +2879,11 @@ clone-response@1.0.2, clone-response@^1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
+clone@~2.1.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
+  integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
+
 coa@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/coa/-/coa-2.0.2.tgz#43f6c21151b4ef2bf57187db0d73de229e3e7ec3"
@@ -3419,6 +3424,14 @@ cssesc@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-2.0.0.tgz#3b13bd1bb1cb36e1bcb5a4dcd27f54c5dcb35703"
   integrity sha512-MsCAG1z9lPdoO/IUMLSBWBSVxVtJ1395VGIQ+Fc2gNdkQ1hNDnQdw3YhA71WJCBW1vdwA0cAnk/DnW6bqoEUYg==
+
+csslint@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/csslint/-/csslint-1.0.5.tgz#19cc3eda322160fd3f7232af1cb2a360e898a2e9"
+  integrity sha1-Gcw+2jIhYP0/cjKvHLKjYOiYouk=
+  dependencies:
+    clone "~2.1.0"
+    parserlib "~1.1.1"
 
 cssnano-preset-default@^4.0.7:
   version "4.0.7"
@@ -4578,19 +4591,44 @@ fela-monolithic@^11.0.2:
     isobject "^3.0.1"
     string-hash "^1.1.3"
 
-fela-plugin-named-keys@^10.5.0:
-  version "10.8.2"
-  resolved "https://registry.yarnpkg.com/fela-plugin-named-keys/-/fela-plugin-named-keys-10.8.2.tgz#0f8b61b502ec4dbd5b365e0b9cffae88d1c38f05"
-  integrity sha512-YiEEHlVtDBNja8PMXoN+V0DCSfW5b3K9wmGx3O9VHMCkD+FEjrWcVMICV+FBkhGut78PrIbqVf8dmyPOi6gKdA==
+fela-plugin-expand-shorthand@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/fela-plugin-expand-shorthand/-/fela-plugin-expand-shorthand-11.0.2.tgz#23a90f6a5d794c7ad30db7ebbee515b22f6267f1"
+  integrity sha512-BG5ssfp/lPjyB+lFG3ZVQ4dSLp3Ylw479+uhdy2lc8Ii7DkIWLSUov3Yf7XalLmBm6CfUhli4vmQaiymJg9ZzA==
+  dependencies:
+    inline-style-expand-shorthand "^1.2.0"
+
+fela-plugin-friendly-pseudo-class@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/fela-plugin-friendly-pseudo-class/-/fela-plugin-friendly-pseudo-class-11.0.2.tgz#214a62a37da86d792f4895f16d6b9e6910397343"
+  integrity sha512-z0J2vWb/cNhYdHkRVdjDcJtZbDlk5TnHEBZQzGpfUbMFLQOsOl5S9EAg5zxW+i1NHyYJ0SQfaFQPGJL3Z2+KWQ==
   dependencies:
     isobject "^3.0.1"
 
-fela-plugin-unit@^10.5.0:
-  version "10.8.2"
-  resolved "https://registry.yarnpkg.com/fela-plugin-unit/-/fela-plugin-unit-10.8.2.tgz#c24c15d4e435d19d2f493db4018a948de11fe4ca"
-  integrity sha512-a7Ay8CJ8AHpWzYMoCFSMU74f/H/pWT8UxV1MnWJ9GSqzrvKdm10Fcxjhybgejc3rceRJT5BotUuqUCau8aeBrw==
+fela-plugin-named-keys@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/fela-plugin-named-keys/-/fela-plugin-named-keys-11.0.2.tgz#66d209a1543573891e8248713d7820e755c212f0"
+  integrity sha512-aYzLCVH9Ee0H+3HZquWHbikDRpmpCkwkCdbuxWw48/73uIoX+uyvAkTEAg+03cG++sIVUT8fvJOBYv4Vq9/OdA==
   dependencies:
     css-in-js-utils "^3.0.0"
+    isobject "^3.0.1"
+
+fela-plugin-unit@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/fela-plugin-unit/-/fela-plugin-unit-11.0.2.tgz#3a690ad2787c69c947791babb391e85f6f3570ff"
+  integrity sha512-Og2dJObBXfVANihntp/Gp/JjfZiZOZxIeLOIwu5UFC4cYnHAui5Igv9niKV/QKX5ki+IDTrshYrBLeDkBb7tNw==
+  dependencies:
+    css-in-js-utils "^3.0.0"
+    isobject "^3.0.1"
+
+fela-plugin-validator@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/fela-plugin-validator/-/fela-plugin-validator-11.0.2.tgz#3b272c54ff3b4c48a929cf9af1fdefe9ccfb3851"
+  integrity sha512-v26PuF7BBxw9pYK7GIK6IopTB0B7YGh/8XJzJeENTrcviN96BreZ0WOpXnF4ORqIxqFHo81qnmgSRJ2k7Cs4rw==
+  dependencies:
+    css-in-js-utils "^3.0.0"
+    csslint "^1.0.5"
+    fela-utils "^11.0.2"
     isobject "^3.0.1"
 
 fela-tools@^10.8.2:
@@ -5872,6 +5910,11 @@ ink@^2.6.0:
     widest-line "^3.1.0"
     wrap-ansi "^6.2.0"
     yoga-layout-prebuilt "^1.9.3"
+
+inline-style-expand-shorthand@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/inline-style-expand-shorthand/-/inline-style-expand-shorthand-1.2.0.tgz#951ed9918ba9fe87af0e11c20fd2fb1f5075cae2"
+  integrity sha512-YdteDMlG1StHeEXF7opaVfPMCIVO8B4TPjE6kZLwdhZdgjH3Q7lxwSe+89sMhdPN77F3quOYhBbqBE0+KXuHpA==
 
 inquirer@3.3.0:
   version "3.3.0"
@@ -7782,6 +7825,11 @@ parseqs@0.0.5:
   integrity sha1-1SCKNzjkZ2bikbouoXNoSSGouJ0=
   dependencies:
     better-assert "~1.0.0"
+
+parserlib@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/parserlib/-/parserlib-1.1.1.tgz#a64cfa724062434fdfc351c9a4ec2d92b94c06f4"
+  integrity sha1-pkz6ckBiQ0/fw1HJpOwtkrlMBvQ=
 
 parseuri@0.0.5:
   version "0.0.5"

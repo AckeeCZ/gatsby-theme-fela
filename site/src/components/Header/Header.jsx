@@ -3,7 +3,7 @@ import React from "react"
 
 const Header = ({ styles }) => (
     <div className={styles.container}>
-        <span>Look Ma, a fela header!</span>
+        <h1>Look Ma, a fela header!</h1>
     </div>
 );
 
