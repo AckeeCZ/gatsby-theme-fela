@@ -6,4 +6,6 @@ This is the folder where we can place all our shadowed files of the original `ga
 
 Its purpose is to override the original files.
 
+Especially fonts and style are most likely to be overriden while customising your theme. 
+
 [Learn more about shadowing here](https://www.gatsbyjs.org/docs/themes/shadowing/)
