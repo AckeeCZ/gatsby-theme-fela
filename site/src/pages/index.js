@@ -31,7 +31,7 @@ const IndexPage = ({ styles }) => {
       <span className='custom-static custom-class-2'>Custom</span>
       <span className='custom-static custom-class-3'>Static CSS</span>
       <Loader show />
-      <span>And EVEN fela keyframe component! ✨</span>
+      <span>And EVEN fela keyframe component! <span aria-label='emoji' role='img'>✨</span></span>
     </Layout>
   )
 }

@@ -1,7 +1,7 @@
 import * as Consts from '../constants';
-import { default as styles } from '../styles';
+import { default as styles, theme } from '../styles';
 
-export { Consts, styles };
+export { Consts, styles, theme };
 
 export { default as React, PureComponent } from 'react';
 export { default as PropTypes } from 'prop-types';
