@@ -6,7 +6,7 @@ import { connect as connectFela, FelaComponent } from 'react-fela'
 
 import * as Styles from './Loader.styles';
 
-import FelaKeyframe from 'gatsby-theme-fela/src/components/FelaKeyFrame';
+import { FelaKeyframe } from 'gatsby-theme-fela';
 
 const heartBeat = () => ({
     '10%': {
