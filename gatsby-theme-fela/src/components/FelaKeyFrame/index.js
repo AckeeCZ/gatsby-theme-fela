@@ -5,11 +5,11 @@ import { RendererContext, ThemeContext } from 'react-fela';
 function FelaKeyframe({ children, keyframe, ...props }) {
     const renderer = useContext(RendererContext);
     const theme = useContext(ThemeContext);
-    // eslint-disable-next-line
     const animationName = React.useMemo(() => renderer.renderKeyframe(keyframe, { ...props, theme }), [
         keyframe,
         renderer,
         theme,
+        props
     ]);
     return children(animationName);
 }
