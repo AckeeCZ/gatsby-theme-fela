@@ -3,7 +3,8 @@
   "private": true,
   "description": "A Gatstby theme that adds fela to your project",
   "version": "0.1.0",
-  "author": "Lukáš Horák <lukas.horak@ackee.cz> | Filip Kubík <filip.kubik@ackee.cz>",
+  "author": "Filip Kubík <filip.kubik@ackee.cz>",
+  "contributors": ["Lukáš Horák <lukas.horak@ackee.cz>"],
   "main": "index.js",
   "dependencies": {
     "fela-monolithic": "^11.0.2",
