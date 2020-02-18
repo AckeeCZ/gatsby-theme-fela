@@ -1,0 +1,44 @@
+{
+  "name": "gatsby-theme-fela",
+  "private": true,
+  "description": "A Gatstby theme that adds fela to your project",
+  "version": "0.1.0",
+  "author": "Lukáš Horák <lukas.horak@ackee.cz> | Filip Kubík <filip.kubik@ackee.cz>",
+  "main": "index.js",
+  "dependencies": {
+    "fela-monolithic": "^11.0.2",
+    "fela-plugin-expand-shorthand": "^11.0.2",
+    "fela-plugin-friendly-pseudo-class": "^11.0.2",
+    "fela-plugin-named-keys": "^11.0.2",
+    "fela-plugin-unit": "^11.0.2",
+    "fela-plugin-validator": "^11.0.2",
+    "gatsby": "^2.13.9",
+    "gatsby-plugin-fela": "0.0.8",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "gatsby": "^2.13.9",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AckeeCZ/gatsby-theme-fela/"
+  },
+  "bugs": {
+    "url": "https://github.com/AckeeCZ/gatsby-theme-fela/issues"
+  }
+}
