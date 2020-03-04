@@ -1,6 +1,3 @@
-const React = require("react")
-const FelaProvider = require('./src/fela/FelaProvider').default
+const wrapRootElement = require("./gatsby-api").wrapRootElement
 
-exports.wrapRootElement = ({ element }) => {
-  return <FelaProvider>{element}</FelaProvider>
-}
+exports.wrapRootElement = wrapRootElement
