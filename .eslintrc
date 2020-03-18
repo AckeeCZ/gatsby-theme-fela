@@ -1,0 +1,16 @@
+{
+    "extends": ["@ackee/eslint-config", "prettier", "prettier/react"],
+    "rules": {
+        "no-restricted-globals": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["gatsby-theme-fela/src", "site/src"]
+            }
+        }
+    },
+    "env": {
+        "browser": true
+    }
+}
