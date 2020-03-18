@@ -1,45 +1,24 @@
-import React, { PureComponent } from "react"
+import React from "react"
 import PropTypes from "prop-types"
-import { ThemeProvider, RendererProvider } from "react-fela"
+import { ThemeProvider, useFela } from "react-fela"
 
 import { theme } from "../styles"
 
-import * as Config from './config';
+import * as Config from "./config"
 
-import { createRenderer } from 'fela';
+import { applyStaticCSS, applyFonts } from "../utilities"
 
-import { applyStaticCSS, applyFonts } from '../utilities';
+const FelaProvider = ({ children }) => {
+  const { renderer } = useFela()
 
-class FelaProvider extends PureComponent {
-  static propTypes = {
-      children: PropTypes.node.isRequired,
-  };
+  applyStaticCSS(renderer, Config.staticCSS)
+  applyFonts(renderer, Config.fonts)
 
-  constructor(props) {
-      super(props);
-
-      this.renderer = createRenderer(Config.rendererConfig);
-  }
-
-  componentDidMount() {
-      applyStaticCSS(this.renderer, Config.staticCSS);
-      applyFonts(this.renderer, Config.fonts);
-  }
-
-  comopnentWillUnmount() {
-      this.renderer.clear();
-  }
-
-  render() {
-      const { children } = this.props;
-
-      return (
-          <RendererProvider renderer={this.renderer}>
-              <ThemeProvider theme={theme}>{children}</ThemeProvider>
-          </RendererProvider>
-      );
-  }
+  return <ThemeProvider theme={theme}>{children}</ThemeProvider>
 }
 
+FelaProvider.propTypes = {
+  children: PropTypes.node.isRequired,
+}
 
 export default FelaProvider

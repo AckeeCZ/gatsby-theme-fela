@@ -1,6 +1,13 @@
 const React = require("react")
-const FelaProvider = require("./src/fela/FelaProvider").default
+const { createRenderer } = require("fela")
+const { RendererProvider } = require("react-fela")
+const Config = require("./src/fela/config")
 
-exports.wrapRootElement = ({ element }) => {
-  return <FelaProvider>{element}</FelaProvider>
+exports.wrapWithFelaRenderer = element => {
+  const renderer = createRenderer(Config.rendererConfig)
+
+  return {
+    renderer,
+    wrapped: <RendererProvider renderer={renderer}>{element}</RendererProvider>,
+  }
 }
