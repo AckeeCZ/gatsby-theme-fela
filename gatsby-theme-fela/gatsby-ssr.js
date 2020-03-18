@@ -1,7 +1,7 @@
 const React = require("react")
 const { renderToString } = require("react-dom/server")
 const { renderToSheetList } = require("fela-dom")
-const { wrapWithFelaRenderer } = require("./gatsby-api")
+const { wrapWithFelaRenderer } = require("./render-helpers")
 const FelaProvider = require("./src/fela/FelaProvider").default
 
 exports.wrapRootElement = ({ element }) => {
