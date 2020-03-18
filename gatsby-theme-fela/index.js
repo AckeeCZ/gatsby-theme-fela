@@ -1,3 +1,1 @@
-// boop
-
-export { default as FelaKeyframe } from './src/components/FelaKeyFrame/'
+export { FelaKeyframe } from "./src/components"
