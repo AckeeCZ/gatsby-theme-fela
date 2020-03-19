@@ -20,7 +20,7 @@
     "lint": "eslint --ignore-path .gitignore .",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "changelog": "gitmoji-changelog",
-    "relase": "npm version"
+    "release": "npm version"
   },
   "husky": {
     "hooks": {
