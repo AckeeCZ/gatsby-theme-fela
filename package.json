@@ -1,7 +1,36 @@
 {
-    "private": true,
-    "workspaces": [
-        "gatsby-theme-fela",
-        "site"
+  "private": true,
+  "workspaces": [
+    "gatsby-theme-fela",
+    "site"
+  ],
+  "dependencies": {
+    "@ackee/eslint-config": "^1.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-react-app": "^5.2.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1",
+    "prettier-config-ackee": "^0.0.13"
+  },
+  "scripts": {
+    "format": "prettier --ignore-path .gitignore --config ./prettier.config.js --write **/*.{js,jsx,json}",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "npm run lint"
+    ],
+    "*.{js,jsx,json,scss,less,css,md}": [
+      "npm run format",
+      "git add"
     ]
+  }
 }

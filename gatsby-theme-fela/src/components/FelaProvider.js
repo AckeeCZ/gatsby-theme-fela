@@ -4,7 +4,7 @@ import { ThemeProvider, useFela } from "react-fela"
 
 import { theme } from "../styles"
 
-import * as Config from "./config"
+import * as Config from "../config"
 
 import { applyStaticCSS, applyFonts } from "../utilities"
 
