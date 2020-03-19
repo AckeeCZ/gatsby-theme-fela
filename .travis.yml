@@ -5,10 +5,10 @@ script: yarn lint && yarn install && yarn build
 deploy:
   provider: npm
   email: ackeedevelopment@gmail.com
-  api_token:
-    secure: xrOwV8IPrmyT1n1cKAI/OM7p5oPW92OBqj3ayoRF/XXfg4RlSVDOb6i8h4qF66OkBhUJB1uLym8RfT//EmU4/gDjD3pODISRNGpTj8AO7rSXMyCfITem0ETPERBDUJF6MicMdIj466Vdkhum31Q9PcdnntbRyxssucnp9cnoxnl3b082ERjFpUHdEjsHwtH1CnD/XXLBcn2MNAc9/aPIR3TP79IiBZnClXLQRlFMZXl5mMqlHRrf7XMbJBINEtGsjtbLBMeBio9ksSUXymgATXmM4rxZ04DPNtUx5dHM6ENT97T20ne6LuTO/qoDe1FyuqDQNmcOgiBhytrBsNjz3JaK463KWysDQfMCHwC8UVMDafXktESI8n18YL2xKmlg7PL2O9wdShRrurv6+r51QtM2TqepugBs+kuUJ1Gk2MAPtTCUutlGbWr/kKc9zQR8vDNyh4tl+TZMmE2tvZj+joIPm83/LnpQVN6Cpf48m1nDYMBWoWBB3Mwd+z5sx+6eoQA9Tpr9+REcspuiOHjQkq3JXLIFg/XPKENQ8CKf/uMbkGqDd1N2XF5ODfll8OrZ05xnUcJkA969jpbabSOgbeqLlLWgIDWiMsGdyYmYMCVlE3KVnTc0mevdzMCXNRoNtu6KsJwN1XBTnf3OJ6pWhTt/33Oc5BuYNq8q70i6cl0=
-  edge: true 
-  src: ./gatsby-theme-fela
+  edge: true
+  src: "./gatsby-theme-fela"
   on:
     tags: true
     repo: AckeeCZ/gatsby-theme-fela
+  api_key:
+    secure: HESKnV/oWlI9uzQV0nKH2ffReQ8cUGm+eeYrVrXPpd6gifxzTWwR5NBL0z+pi/TSCYIK0Dk7V45Yn+80TLW+3Tjsl9Psy+QGoIsPbTuQZgAJ2TX4cbyYA1sxaoWD+3/uk4sxtvyVO3np0pCNcVqUFLRjP9uBHx89v4a+gCx2fzuPLm5WUa9vAUgsTkU543AV16ypsEPeuOPgruuPJhH4AtfPn79W7KlHm1f738VzD5d6yCA1NqqouKK3PnOmpbYI80mhKnj/IZMSB3C93iqS+LlgsYrj7WoDN2M2vHhHO2vtrHUXI2JUpi6tYZoa0seKjnFEOW//lvv384NIGkfmjPHsyiTe7ln5gyPMN5oST/0KVGriwvSlHr/zJNDdQGWszex+5xfcNDcjUlYGPPs9RWKhz9WIoqeLUYyUkfvf5uNMtHAnFZ/FqEdH4Y6r/X4XdQy+2zfwAdEBKqCyPgbVA6VK5wQ1rOpWNBjj7J+tMNoEYFv7P1hMg5NLIo9H8dBw1qr5X5EQ8aSjIJq28svash1Z1BmSWKKEjX8rtH1brGL3jLGURIgmCWyHeWkmGHfajIZPR2M4txnJEsijlGzmNNEruRfRqF2n3oEtMCnH20Q8Zv/OEUSdKnc206lTIeDJ5Eo+pG9MASshTq/EZpCAqx53sjqjax7N8wtOUjEObMQ=
