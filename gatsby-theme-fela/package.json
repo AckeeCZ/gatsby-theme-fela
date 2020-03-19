@@ -1,6 +1,5 @@
 {
   "name": "gatsby-theme-fela",
-  "private": true,
   "description": "A Gatstby theme that adds fela to your project",
   "version": "0.2.0",
   "author": "Filip Kubík <filip.kubik@ackee.cz>",
