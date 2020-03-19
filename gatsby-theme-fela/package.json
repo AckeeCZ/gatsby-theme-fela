@@ -4,7 +4,9 @@
   "description": "A Gatstby theme that adds fela to your project",
   "version": "0.1.0",
   "author": "Filip Kubík <filip.kubik@ackee.cz>",
-  "contributors": ["Lukáš Horák <lukas.horak@ackee.cz>"],
+  "contributors": [
+    "Lukáš Horák <lukas.horak@ackee.cz>"
+  ],
   "main": "index.js",
   "dependencies": {
     "fela-monolithic": "^11.0.2",
@@ -14,9 +16,9 @@
     "fela-plugin-unit": "^11.0.2",
     "fela-plugin-validator": "^11.0.2",
     "gatsby": "^2.13.9",
-    "gatsby-plugin-fela": "0.0.8",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-fela": "^11.0.2"
   },
   "devDependencies": {
     "gatsby": "^2.13.9",
