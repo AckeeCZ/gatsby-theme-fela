@@ -20,7 +20,8 @@
     "lint": "eslint --ignore-path .gitignore .",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "changelog": "gitmoji-changelog",
-    "build": "yarn workspace gatsby-theme-fela build"
+    "build": "yarn workspace gatsby-theme-fela build",
+    "release": "yarn workspace gatsby-theme-fela release"
   },
   "husky": {
     "hooks": {
