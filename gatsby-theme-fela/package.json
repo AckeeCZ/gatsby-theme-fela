@@ -30,7 +30,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "release": "npm version"
+    "release": "npm version",
+    "build": "exit 0"
   },
   "repository": {
     "type": "git",

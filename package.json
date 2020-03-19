@@ -19,7 +19,8 @@
     "format": "prettier --ignore-path .gitignore --config ./prettier.config.js --write **/*.{js,jsx,json}",
     "lint": "eslint --ignore-path .gitignore .",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "changelog": "gitmoji-changelog"
+    "changelog": "gitmoji-changelog",
+    "build": "yarn workspace gatsby-theme-fela build"
   },
   "husky": {
     "hooks": {
