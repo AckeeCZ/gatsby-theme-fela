@@ -1,1 +1,1 @@
-export { FelaKeyframe } from "./src/components"
+export { FelaKeyframe } from './src/components';

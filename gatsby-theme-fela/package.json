@@ -29,8 +29,7 @@
     "gatsby"
   ],
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/AckeeCZ/gatsby-theme-fela/"

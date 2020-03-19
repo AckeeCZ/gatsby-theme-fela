@@ -1,2 +1,2 @@
-export { default as FelaKeyframe } from "./FelaKeyframe"
-export { default as FelaProvider } from "./FelaProvider"
+export { default as FelaKeyframe } from './FelaKeyFrame';
+export { default as FelaProvider } from './FelaProvider';

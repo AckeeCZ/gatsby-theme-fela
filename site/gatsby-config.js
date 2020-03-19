@@ -1,5 +1,3 @@
 module.exports = {
-  plugins: [
-    'gatsby-theme-fela',
-  ],
-}
+  plugins: ['gatsby-theme-fela'],
+};
