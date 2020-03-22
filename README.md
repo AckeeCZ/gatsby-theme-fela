@@ -54,7 +54,7 @@ to start project in development mode at [`http://localhost:8000`](`http://localh
 
 ### Package releasing
 
-Whenever you want to relase new package version simply run `yarn relese` and provide the version you want to release
+Whenever you've done some changes in `gatsby-theme-fela` and want to relase new package version simply run `yarn relese` and then provide the version you want to release
 
 ```sh
 yarn release --patch # increment patch number of the version
