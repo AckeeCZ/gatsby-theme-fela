@@ -29,7 +29,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "release": "npm version",
+    "release": "yarn version",
     "build": "exit 0"
   },
   "repository": {
