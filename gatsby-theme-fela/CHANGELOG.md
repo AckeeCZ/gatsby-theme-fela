@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="0.3.1"></a>
+
+## 0.3.1 (2020-03-24)
+
+### Changed
+
+- 🔧 Add fela dependency [[d6a5f74](https://github.com/AckeeCZ/gatsby-theme-fela/commit/d6a5f74336560175a71877a6ab0453288afad229)]
+
 <a name="0.3.0"></a>
 
 ## 0.3.0 (2020-03-24)
@@ -18,11 +26,8 @@
 
 ### Miscellaneous
 
-- 📝 Fix typo in docs [[66c1cfd](https://github.com/AckeeCZ/gatsby-theme-fela/commit/66c1cfdf60e634866d18c239842e326d4165cd27)]
-- Merge pull request [#12](https://github.com/AckeeCZ/gatsby-theme-fela/issues/12) from AckeeCZ/feat/setup-releasing [[e460f4e](https://github.com/AckeeCZ/gatsby-theme-fela/commit/e460f4e063f252436d872b2085093732b26223ad)]
 - 📝 Adjust the releasing doc a bit [[a492487](https://github.com/AckeeCZ/gatsby-theme-fela/commit/a4924871adfeb0adb89b91fb010f3f9be366bbf5)]
 - 📝 Generate changelog [[3377852](https://github.com/AckeeCZ/gatsby-theme-fela/commit/33778529385465cd0aef7e2755ed5fdc1831f1f7)]
-- 📝 Describe relesing process in main doc [[6de1e9c](https://github.com/AckeeCZ/gatsby-theme-fela/commit/6de1e9c56599371ce8f1f7b3311b92309f3d6e6c)]
 
 <a name="0.2.3"></a>
 
