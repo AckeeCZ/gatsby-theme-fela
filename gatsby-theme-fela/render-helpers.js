@@ -8,6 +8,12 @@ exports.wrapWithFelaRenderer = element => {
 
   return {
     renderer,
-    wrapped: <RendererProvider renderer={renderer}>{element}</RendererProvider>,
+    wrapped: React.createElement(
+      RendererProvider,
+      {
+        renderer,
+      },
+      element,
+    ),
   };
 };
