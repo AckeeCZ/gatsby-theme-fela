@@ -4649,7 +4649,7 @@ fela-utils@^11.2.0:
     css-in-js-utils "^3.0.0"
     fast-loops "^1.0.0"
 
-fela@^11.2.0:
+fela@^11.0.2, fela@^11.2.0:
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/fela/-/fela-11.2.0.tgz#19c7d94dbb44423cb44ae8899c6a3aff49af7037"
   integrity sha512-xhiRS9wIuZorsY9hOaTInGl2zXJF2CaUda7NerwMFzE6hyXkNwTSX0ZfITKUyKq9015AtXFnjKTe2hXtJeXI1Q==
@@ -5088,7 +5088,7 @@ gatsby-telemetry@^1.1.47:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby@^2.13.9, gatsby@^2.18.22:
+gatsby@^2.18.22:
   version "2.19.1"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.19.1.tgz#eaea19aec7580a459a7d2b9acea6e1445902ec36"
   integrity sha512-n4GCNLIdG+0Kf6qNlIN4cfRp+PMAtN45RMvKoRFHQ5hDKnBZf53+wKe0CH2WhYtYayxit32Cn4usDqe5iASWag==
@@ -9769,7 +9769,7 @@ react-dev-utils@^4.2.3:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@^16.12.0, react-dom@^16.8.6:
+react-dom@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
   integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
@@ -9827,7 +9827,7 @@ react-reconciler@^0.24.0:
     prop-types "^15.6.2"
     scheduler "^0.18.0"
 
-react@^16.12.0, react@^16.8.6:
+react@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
