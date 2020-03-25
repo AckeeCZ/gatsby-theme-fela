@@ -23,6 +23,9 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.9.4",
+    "@babel/cli": "^7.8.4",
+    "babel-core": "^7.0.0-bridge.0",
     "gitmoji-changelog": "^2.1.0"
   },
   "keywords": [
@@ -32,7 +35,7 @@
   "scripts": {
     "release": "yarn version",
     "version": "yarn changelog && code CHANGELOG.md --wait && git add CHANGELOG.md",
-    "build": "exit 0",
+    "build": "babel src -d lib",
     "changelog": "gitmoji-changelog"
   },
   "repository": {

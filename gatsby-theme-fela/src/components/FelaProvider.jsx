@@ -1,24 +1,30 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { ThemeProvider, useFela } from "react-fela"
+import React from 'react';
+import PropTypes from 'prop-types';
+import { ThemeProvider, useFela } from 'react-fela';
 
-import { theme } from "../styles"
+import { theme } from '../styles';
 
-import * as Config from "../config"
+import * as Config from '../config';
 
-import { applyStaticCSS, applyFonts } from "../utilities"
+import { applyStaticCSS, applyFonts } from '../utilities';
 
 const FelaProvider = ({ children }) => {
-  const { renderer } = useFela()
+  const { renderer } = useFela();
 
-  applyStaticCSS(renderer, Config.staticCSS)
-  applyFonts(renderer, Config.fonts)
+  applyStaticCSS(renderer, Config.staticCSS);
+  applyFonts(renderer, Config.fonts);
 
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>
-}
+  return React.createElement(
+    ThemeProvider,
+    {
+      theme,
+    },
+    children,
+  );
+};
 
 FelaProvider.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default FelaProvider
+export default FelaProvider;
