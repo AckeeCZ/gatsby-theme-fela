@@ -1,5 +1,14 @@
 # Changelog
 
+<a name="0.3.2"></a>
+## 0.3.2 (2020-03-25)
+
+
+### Changed
+
+- ♻️ Refactor to js syntax [[85acc48](https://github.com/AckeeCZ/gatsby-theme-fela/commit/85acc48aed2ce666f2975e44d78d5053ae908eb8)]
+
+
 <a name="0.3.1"></a>
 
 ## 0.3.1 (2020-03-24)

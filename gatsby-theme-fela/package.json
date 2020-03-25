@@ -1,7 +1,7 @@
 {
   "name": "gatsby-theme-fela",
   "description": "A Gatstby theme that adds fela to your project",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": "Filip Kubík <filip.kubik@ackee.cz>",
   "contributors": [
     "Lukáš Horák <lukas.horak@ackee.cz>"
@@ -23,8 +23,8 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.9.4",
     "@babel/cli": "^7.8.4",
+    "@babel/preset-react": "^7.9.4",
     "babel-core": "^7.0.0-bridge.0",
     "gitmoji-changelog": "^2.1.0"
   },
