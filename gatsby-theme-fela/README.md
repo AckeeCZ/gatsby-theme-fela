@@ -48,7 +48,8 @@ Lets say you want to add custom styles file `layout.css`
     // you can include multiple files and include them in this array
     export default [layout]
 ```
-3. gatsby-theme-fela will solve the rest for you
+
+Gatsby theme already contains `reset.css` that you can use right away. Or override it using shadowing feature. 
 
 ### Adding custom fonts
 
@@ -74,9 +75,9 @@ Adding fonts works the same way as adding styles.
         },
     ]
 ```
+## Fela renderer configuration (Plugins and Enhancers)
 
-Gatsby theme already contains `reset.css` that you can use right away. Or override it using shadowing feature. 
-
+We are going to support adding custom plugins and enhancers in the next releases. For now you can use already built-in features such as: 
 
 ### Adding custom named keys
 
