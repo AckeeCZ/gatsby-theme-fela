@@ -29,7 +29,11 @@
     "gitmoji-changelog": "^2.1.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "fela",
+    "react"
   ],
   "license": "MIT",
   "scripts": {
