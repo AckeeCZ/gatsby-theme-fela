@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="0.3.4"></a>
+## 0.3.4 (2020-03-30)
+
+### Changed
+
+- 🔧 Add keywords to package.json [[6c74d01](https://github.com/AckeeCZ/gatsby-theme-fela/commit/6c74d01c8f392f0b3f93383c5eef5c15b4e9042f)]
+
+
 <a name="0.3.3"></a>
 ## 0.3.3 (2020-03-30)
 
