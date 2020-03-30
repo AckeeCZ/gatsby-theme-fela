@@ -1,5 +1,14 @@
 # Changelog
 
+<a name="0.3.3"></a>
+## 0.3.3 (2020-03-30)
+
+
+### Miscellaneous
+
+- 📝 Add documentation for npmjs [[675117e](https://github.com/AckeeCZ/gatsby-theme-fela/commit/675117e7d9f4699752ceb7c6cb585bb69fcc5267)]
+
+
 <a name="0.3.2"></a>
 ## 0.3.2 (2020-03-25)
 
