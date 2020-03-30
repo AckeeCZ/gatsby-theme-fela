@@ -39,7 +39,7 @@ Especially fonts and style are most likely to be overriden while customising you
 
 Lets say you want to add custom styles file `layout.css`
 
-1. Create a following folders in your project `src/gatsby-them-fela/styles` 
+1. Create a following folder in your project `src/gatsby-them-fela/styles` 
 2. Inside that folder create file `index.js`
 ```javascript
     // src/gatsby-them-fela/styles/index.js
@@ -54,7 +54,8 @@ Lets say you want to add custom styles file `layout.css`
 
 Adding fonts works the same way as adding styles.
 
-1. Create a following folders in your project `src/gatsby-them-fela/fonts` 
+1. Create a following folder
+ in your project `src/gatsby-them-fela/fonts` 
 2. Inside that folder create file `index.js`
 ```javascript
     // src/gatsby-them-fela/fonts/namedKeys.js
@@ -66,24 +67,25 @@ Adding fonts works the same way as adding styles.
             name: "SpaceMono",
             files: [SpaceMono],
             options: {
-            fontStyle: "normal",
-            fontWeight: "400",
-            fontDisplay: "swap",
+                fontStyle: "normal",
+                fontWeight: "400",
+                fontDisplay: "swap",
             },
         },
     ]
 ```
-3. gatsby-theme-fela will solve the rest for you
+
+Gatsby theme already contains `reset.css` that you can use right away. Or override it using shadowing feature. 
 
 
 ### Adding custom named keys
 
-Custom named keys allows you to write more readable code, by defining key names for media querries. 
+Custom named keys allows you to write more readable code, by defining key names for media queries. 
 
 You can write your own keys following these steps: 
 
-1. Create a following folders in your project `src/gatsby-them-fela/config` 
-2. Inside that folder create file `namedKey.js`
+1. Create a following folder in your project `src/gatsby-them-fela/config` 
+2. Inside that folder create file `namedKeys.js`
 
 Setup:
 
