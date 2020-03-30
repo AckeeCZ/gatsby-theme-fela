@@ -1,9 +1,9 @@
+[![Build Status](https://travis-ci.com/AckeeCZ/gatsby-theme-fela.svg?branch=master)](https://travis-ci.com/AckeeCZ/gatsby-theme-fela)
+[![npm version](https://badge.fury.io/js/gatsby-theme-fela.svg)](https://badge.fury.io/js/gatsby-theme-fela)
 
-Gatsby Theme Fela
+# Gatsby Theme Fela
 
 ======
-![Alt text](./badges/passed.svg)
-<img src="./badges/passed.svg">
 
 This is a Gatsby theme to extend your awesome website with Fela.
 
