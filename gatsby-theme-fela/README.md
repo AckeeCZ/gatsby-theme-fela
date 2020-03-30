@@ -1,6 +1,9 @@
 
 Gatsby Theme Fela
+
 ======
+![Alt text](./badges/passed.svg)
+<img src="./badges/passed.svg">
 
 This is a Gatsby theme to extend your awesome website with Fela.
 
