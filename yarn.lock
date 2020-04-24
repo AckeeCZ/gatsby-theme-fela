@@ -3250,6 +3250,14 @@ css-declaration-sorter@^4.0.1:
     postcss "^7.0.1"
     timsort "^0.3.0"
 
+css-in-js-utils@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-2.0.1.tgz#3b472b398787291b47cfe3e44fecfdd9e914ba99"
+  integrity sha512-PJF0SpJT+WdbVVt0AOYp9C8GnuruRlL/UFW7932nLWmFLQTaWEzTBQEx7/hn4BuV+WON75iAViSUJLiU3PKbpA==
+  dependencies:
+    hyphenate-style-name "^1.0.2"
+    isobject "^3.0.1"
+
 css-in-js-utils@^3.0.0:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-3.0.4.tgz#9173c31b1fcb31401f0baf84fb3b680971b49eab"
@@ -4684,6 +4692,14 @@ fela-plugin-expand-shorthand@^11.0.2:
   dependencies:
     inline-style-expand-shorthand "^1.2.0"
 
+fela-plugin-fallback-value@^11.0.2, fela-plugin-fallback-value@^11.3.0:
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/fela-plugin-fallback-value/-/fela-plugin-fallback-value-11.3.0.tgz#f50559e541b41cd6b6261cf4acc7b76f3da99c8e"
+  integrity sha512-LMyPe0/3Ke1fFvGJSfURdhTL+/QhvF13pw+2RKgfSpXaZ4EvMEju+6fb8xRLjTsZTrjn4TsNQW8rLgu+ZsSSmg==
+  dependencies:
+    css-in-js-utils "^3.0.0"
+    isobject "^3.0.1"
+
 fela-plugin-friendly-pseudo-class@^11.0.2:
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/fela-plugin-friendly-pseudo-class/-/fela-plugin-friendly-pseudo-class-11.0.2.tgz#214a62a37da86d792f4895f16d6b9e6910397343"
@@ -4697,6 +4713,17 @@ fela-plugin-named-keys@^11.0.2:
   integrity sha512-aYzLCVH9Ee0H+3HZquWHbikDRpmpCkwkCdbuxWw48/73uIoX+uyvAkTEAg+03cG++sIVUT8fvJOBYv4Vq9/OdA==
   dependencies:
     css-in-js-utils "^3.0.0"
+    isobject "^3.0.1"
+
+fela-plugin-prefixer@^11.0.2:
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/fela-plugin-prefixer/-/fela-plugin-prefixer-11.3.0.tgz#4271307bdaff46e010a2e5e02e0d4132a8e88e1e"
+  integrity sha512-vo7Cvn1ayQe4s73ROEUngg/NW+vRJfxlyAm24NbXoVC0pioqYI6l62hSpjyBU7wDuI13OV8THQ5godjYk0VA5Q==
+  dependencies:
+    css-in-js-utils "^3.0.0"
+    fast-loops "^1.0.0"
+    fela-plugin-fallback-value "^11.3.0"
+    inline-style-prefixer "^5.1.0"
     isobject "^3.0.1"
 
 fela-plugin-unit@^11.0.2:
@@ -6094,7 +6121,7 @@ husky@^4.2.3:
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
 
-hyphenate-style-name@^1.0.3:
+hyphenate-style-name@^1.0.2, hyphenate-style-name@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.3.tgz#097bb7fa0b8f1a9cf0bd5c734cf95899981a9b48"
   integrity sha512-EcuixamT82oplpoJ2XU4pDtKGWQ7b00CD9f1ug9IaQ3p1bkHMiKCZ9ut9QDI6qsa6cpUuB+A/I+zLtdNK4n2DQ==
@@ -6296,6 +6323,13 @@ inline-style-expand-shorthand@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/inline-style-expand-shorthand/-/inline-style-expand-shorthand-1.2.0.tgz#951ed9918ba9fe87af0e11c20fd2fb1f5075cae2"
   integrity sha512-YdteDMlG1StHeEXF7opaVfPMCIVO8B4TPjE6kZLwdhZdgjH3Q7lxwSe+89sMhdPN77F3quOYhBbqBE0+KXuHpA==
+
+inline-style-prefixer@^5.1.0:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-5.1.2.tgz#e5a5a3515e25600e016b71e39138971228486c33"
+  integrity sha512-PYUF+94gDfhy+LsQxM0g3d6Hge4l1pAqOSOiZuHWzMvQEGsbRQ/ck2WioLqrY2ZkHyPgVUXxn+hrkF7D6QUGbA==
+  dependencies:
+    css-in-js-utils "^2.0.0"
 
 inquirer@3.3.0:
   version "3.3.0"
