@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="0.4.0"></a>
+## 0.4.0 (2020-04-24)
+
+### Added
+
+- ✨ Add fela-plugin-autoprefixer [[ae53a97](https://github.com/AckeeCZ/gatsby-theme-fela/commit/ae53a978efe4805aa9b58fc00c40b281de4d21e1)]
+
+
 <a name="0.3.4"></a>
 ## 0.3.4 (2020-03-30)
 
