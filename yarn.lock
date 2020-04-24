@@ -4692,7 +4692,7 @@ fela-plugin-expand-shorthand@^11.0.2:
   dependencies:
     inline-style-expand-shorthand "^1.2.0"
 
-fela-plugin-fallback-value@^11.3.0:
+fela-plugin-fallback-value@^11.0.2, fela-plugin-fallback-value@^11.3.0:
   version "11.3.0"
   resolved "https://registry.yarnpkg.com/fela-plugin-fallback-value/-/fela-plugin-fallback-value-11.3.0.tgz#f50559e541b41cd6b6261cf4acc7b76f3da99c8e"
   integrity sha512-LMyPe0/3Ke1fFvGJSfURdhTL+/QhvF13pw+2RKgfSpXaZ4EvMEju+6fb8xRLjTsZTrjn4TsNQW8rLgu+ZsSSmg==
@@ -4715,7 +4715,7 @@ fela-plugin-named-keys@^11.0.2:
     css-in-js-utils "^3.0.0"
     isobject "^3.0.1"
 
-fela-plugin-prefixer@^11.3.0:
+fela-plugin-prefixer@^11.0.2:
   version "11.3.0"
   resolved "https://registry.yarnpkg.com/fela-plugin-prefixer/-/fela-plugin-prefixer-11.3.0.tgz#4271307bdaff46e010a2e5e02e0d4132a8e88e1e"
   integrity sha512-vo7Cvn1ayQe4s73ROEUngg/NW+vRJfxlyAm24NbXoVC0pioqYI6l62hSpjyBU7wDuI13OV8THQ5godjYk0VA5Q==
