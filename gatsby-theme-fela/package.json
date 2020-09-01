@@ -1,23 +1,23 @@
 {
   "name": "gatsby-theme-fela",
   "description": "A Gatstby theme that adds fela to your project",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": "Filip Kubík <filip.kubik@ackee.cz>",
   "contributors": [
     "Lukáš Horák <lukas.horak@ackee.cz>"
   ],
   "main": "index.js",
   "dependencies": {
-    "fela": "^11.0.2",
-    "fela-monolithic": "^11.0.2",
-    "fela-plugin-expand-shorthand": "^11.0.2",
-    "fela-plugin-fallback-value": "^11.0.2",
-    "fela-plugin-friendly-pseudo-class": "^11.0.2",
-    "fela-plugin-named-keys": "^11.0.2",
-    "fela-plugin-prefixer": "^11.0.2",
-    "fela-plugin-unit": "^11.0.2",
-    "fela-plugin-validator": "^11.0.2",
-    "react-fela": "^11.0.2"
+    "fela": "^11.3.1",
+    "fela-monolithic": "^11.3.1",
+    "fela-plugin-expand-shorthand": "^11.3.1",
+    "fela-plugin-fallback-value": "^11.3.1",
+    "fela-plugin-friendly-pseudo-class": "^11.3.1",
+    "fela-plugin-named-keys": "^11.3.1",
+    "fela-plugin-prefixer": "^11.3.1",
+    "fela-plugin-unit": "^11.3.1",
+    "fela-plugin-validator": "^11.3.1",
+    "react-fela": "^11.3.1"
   },
   "peerDependencies": {
     "gatsby": "^2.13.9",
