@@ -1,38 +1,44 @@
 # Changelog
 
+<a name="0.4.1"></a>
+
+## 0.4.1 (2020-09-01)
+
+### Changed
+
+- ⬆️ Upgrade dependencies [[f31b6ef](https://github.com/AckeeCZ/gatsby-theme-fela/commit/f31b6ef30004ba172fe693446bc386849f174cc2)]
+
 <a name="0.4.0"></a>
+
 ## 0.4.0 (2020-04-24)
 
 ### Added
 
 - ✨ Add fela-plugin-autoprefixer [[ae53a97](https://github.com/AckeeCZ/gatsby-theme-fela/commit/ae53a978efe4805aa9b58fc00c40b281de4d21e1)]
 
-
 <a name="0.3.4"></a>
+
 ## 0.3.4 (2020-03-30)
 
 ### Changed
 
 - 🔧 Add keywords to package.json [[6c74d01](https://github.com/AckeeCZ/gatsby-theme-fela/commit/6c74d01c8f392f0b3f93383c5eef5c15b4e9042f)]
 
-
 <a name="0.3.3"></a>
-## 0.3.3 (2020-03-30)
 
+## 0.3.3 (2020-03-30)
 
 ### Miscellaneous
 
 - 📝 Add documentation for npmjs [[675117e](https://github.com/AckeeCZ/gatsby-theme-fela/commit/675117e7d9f4699752ceb7c6cb585bb69fcc5267)]
 
-
 <a name="0.3.2"></a>
-## 0.3.2 (2020-03-25)
 
+## 0.3.2 (2020-03-25)
 
 ### Changed
 
 - ♻️ Refactor to js syntax [[85acc48](https://github.com/AckeeCZ/gatsby-theme-fela/commit/85acc48aed2ce666f2975e44d78d5053ae908eb8)]
-
 
 <a name="0.3.1"></a>
 
