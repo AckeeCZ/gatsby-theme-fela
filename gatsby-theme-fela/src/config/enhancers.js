@@ -1,10 +1,10 @@
-import felaMonolithic from "fela-monolithic"
+import felaMonolithic from 'fela-monolithic';
 
 const enhancers = [
-  process.env.NODE_ENV === "development" &&
+  process.env.NODE_ENV === 'development' &&
     felaMonolithic({
       prettySelectors: true,
     }),
-].filter(Boolean)
+].filter(Boolean);
 
-export default enhancers
+export default enhancers;

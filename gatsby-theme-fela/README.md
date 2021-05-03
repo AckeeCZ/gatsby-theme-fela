@@ -30,129 +30,128 @@ module.exports = {
 };
 ```
 
-## Overriding and customisation 
+## Overriding and customisation
 
 You can override the default fela settings, theme etc. by using theme shadowing.
 
 Learn more about shadowing here: https://www.gatsbyjs.org/docs/themes/shadowing/
 
-Especially fonts and style are most likely to be overriden while customising your theme. 
+Especially fonts and style are most likely to be overriden while customising your theme.
 
 ### Adding custom static styles
 
 Lets say you want to add custom styles file `layout.css`
 
-1. Create a following folder in your project `src/gatsby-them-fela/styles` 
+1. Create a following folder in your project `src/gatsby-them-fela/styles`
 2. Inside that folder create file `index.js`
-```javascript
-    // src/gatsby-them-fela/styles/index.js
-    import layout from "!css-loader!./layout.css"
 
-    // you can include multiple files and include them in this array
-    export default [layout]
+```javascript
+// src/gatsby-them-fela/styles/index.js
+import layout from '!css-loader!./layout.css';
+
+// you can include multiple files and include them in this array
+export default [layout];
 ```
 
-Gatsby theme already contains `reset.css` that you can use right away. Or override it using shadowing feature. 
+Gatsby theme already contains `reset.css` that you can use right away. Or override it using shadowing feature.
 
 ### Adding custom fonts
 
 Adding fonts works the same way as adding styles.
 
 1. Create a following folder
- in your project `src/gatsby-them-fela/fonts` 
+   in your project `src/gatsby-them-fela/fonts`
 2. Inside that folder create file `index.js`
-```javascript
-    // src/gatsby-them-fela/fonts/namedKeys.js
-    import SpaceMono from "./SpaceMono-Regular.ttf"
 
-    // you can include multiple fonts and include them in this array
-    export default [
-        {
-            name: "SpaceMono",
-            files: [SpaceMono],
-            options: {
-                fontStyle: "normal",
-                fontWeight: "400",
-                fontDisplay: "swap",
-            },
-        },
-    ]
+```javascript
+// src/gatsby-them-fela/fonts/namedKeys.js
+import SpaceMono from './SpaceMono-Regular.ttf';
+
+// you can include multiple fonts and include them in this array
+export default [
+  {
+    name: 'SpaceMono',
+    files: [SpaceMono],
+    options: {
+      fontStyle: 'normal',
+      fontWeight: '400',
+      fontDisplay: 'swap',
+    },
+  },
+];
 ```
+
 ## Fela renderer configuration (Plugins and Enhancers)
 
-We are going to support adding custom plugins and enhancers in the next releases. For now you can use already built-in features such as: 
+We are going to support adding custom plugins and enhancers in the next releases. For now you can use already built-in features such as:
 
 ### Adding custom named keys
 
-Custom named keys allows you to write more readable code, by defining key names for media queries. 
+Custom named keys allows you to write more readable code, by defining key names for media queries.
 
-You can write your own keys following these steps: 
+You can write your own keys following these steps:
 
-1. Create a following folder in your project `src/gatsby-them-fela/config` 
+1. Create a following folder in your project `src/gatsby-them-fela/config`
 2. Inside that folder create file `namedKeys.js`
 
 Setup:
 
 ```javascript
-    // namedKeys.js
-    const namedKeys = {
-        desktopFullHD: '@media (min-width: 1920px)',
-        desktopLarge: '@media (min-width: 1440px)',
-        desktop: '@media (min-width: 1024px)',
+// namedKeys.js
+const namedKeys = {
+  desktopFullHD: '@media (min-width: 1920px)',
+  desktopLarge: '@media (min-width: 1440px)',
+  desktop: '@media (min-width: 1024px)',
 
-        tablet: '@media (min-width: 768px)',
-        tabletMax: '@media (max-width: 1023px)',
-    };
+  tablet: '@media (min-width: 768px)',
+  tabletMax: '@media (max-width: 1023px)',
+};
 
-    export default namedKeys;
+export default namedKeys;
 ```
 
-Usage: 
+Usage:
 
 ```javascript
-    export const container = () => {
-        return {
-            display: block,
+export const container = () => {
+  return {
+    display: block,
 
-            // @media (min-width: 1920px)
-            desktopFullHD: {
-                display: 'flex',
-            },
-        };
-    };
+    // @media (min-width: 1920px)
+    desktopFullHD: {
+      display: 'flex',
+    },
+  };
+};
 ```
-
 
 ## Basic usage
 
 There are many ways of using fela, you can read more about them [here](https://fela.js.org/docs/guides/UsageWithReact.html)
 
-Here in [Ackee](https://github.com/AckeeCZ) prefer this way: 
+Here in [Ackee](https://github.com/AckeeCZ) prefer this way:
 
-Say you want to style a Header with Fela. 
+Say you want to style a Header with Fela.
 
 ```javascript
-    // components/Header/index.js
-    import { connect as connectFela } from "react-fela"
-    import Header from './Header';
-    import * as styles from './Header.styles';
+// components/Header/index.js
+import { connect as connectFela } from 'react-fela';
+import Header from './Header';
+import * as styles from './Header.styles';
 
-    export default connectFela(styles)(Header);
+export default connectFela(styles)(Header);
 ```
 
 ```javascript
-    // components/Header/Header.jsx
-    const Header = ({styles}) => (
-        <h1 class={styles.header}>Hello World!</h1>
-    )
+// components/Header/Header.jsx
+const Header = ({ styles }) => <h1 class={styles.header}>Hello World!</h1>;
 ```
 
-
 ```javascript
-    // components/Header/Header.styles.js
-    export const header = () => ({
-        color: 'tomato'
-    });
+// components/Header/Header.styles.js
+export const header = () => ({
+  color: 'tomato',
+});
 ```
 
 ```javascript
