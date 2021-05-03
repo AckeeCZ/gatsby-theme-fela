@@ -8,27 +8,35 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "fela": "^11.3.1",
-    "fela-monolithic": "^11.3.1",
-    "fela-plugin-expand-shorthand": "^11.3.1",
-    "fela-plugin-fallback-value": "^11.3.1",
-    "fela-plugin-friendly-pseudo-class": "^11.3.1",
-    "fela-plugin-named-keys": "^11.3.1",
-    "fela-plugin-prefixer": "^11.3.1",
-    "fela-plugin-unit": "^11.3.1",
-    "fela-plugin-validator": "^11.3.1",
-    "react-fela": "^11.3.1"
+    "@ackee/eslint-config": "^3.0.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "fela": "^11.6.1",
+    "fela-monolithic": "^11.6.1",
+    "fela-plugin-expand-shorthand": "^11.6.1",
+    "fela-plugin-fallback-value": "^11.6.1",
+    "fela-plugin-friendly-pseudo-class": "^11.6.1",
+    "fela-plugin-named-keys": "^11.6.1",
+    "fela-plugin-prefixer": "^11.6.1",
+    "fela-plugin-unit": "^11.6.1",
+    "fela-plugin-validator": "^11.6.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "prettier-config-ackee": "^0.0.15",
+    "react-fela": "^11.6.1"
   },
   "peerDependencies": {
-    "gatsby": "^2.13.9",
+    "gatsby": "^3.3.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/preset-react": "^7.9.4",
+    "@babel/cli": "^7.13.16",
+    "@babel/preset-react": "^7.13.13",
     "babel-core": "^7.0.0-bridge.0",
-    "gitmoji-changelog": "^2.1.0"
+    "gitmoji-changelog": "^2.2.0"
   },
   "keywords": [
     "gatsby",
