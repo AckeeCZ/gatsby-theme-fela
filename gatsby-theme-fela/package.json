@@ -21,10 +21,6 @@
     "fela-plugin-prefixer": "^11.6.1",
     "fela-plugin-unit": "^11.6.1",
     "fela-plugin-validator": "^11.6.1",
-    "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1",
-    "prettier-config-ackee": "^0.0.15",
     "react-fela": "^11.6.1"
   },
   "peerDependencies": {
