@@ -1,5 +1,22 @@
 # Changelog
 
+<a name="1.0.0"></a>
+
+## 1.0.0 (2021-05-05)
+
+### ⬆️ Upgrade to Gatsby v3
+
+### Changed
+
+- ♻️ Remove incorrect deps from gatsby-theme-fela/package.json [[734d912](https://github.com/AckeeCZ/gatsby-theme-fela/commit/734d91244ddfdf6028fb1fe56ac0f780f0eea0c9)]
+- ♻️ Refactor to rehydrate [[f1f0cc7](https://github.com/AckeeCZ/gatsby-theme-fela/commit/f1f0cc742c8940472bc771764c5a2d27329fdbaf)]
+- ♻️ Cleanup unused files [[8526763](https://github.com/AckeeCZ/gatsby-theme-fela/commit/85267633825eac00e0ba92ec8991ac72a5b1d858)]
+- ⬆️ Upgrade dependencies [[5db3b4a](https://github.com/AckeeCZ/gatsby-theme-fela/commit/5db3b4a0d2fd13b12726e462b9acf0ee78e13b00)]
+
+### Removed
+
+- 🔥 Remove unused deps [[a9b8f25](https://github.com/AckeeCZ/gatsby-theme-fela/commit/a9b8f25a63581024266fe85f7f3c33d0c477c791)]
+
 <a name="0.4.1"></a>
 
 ## 0.4.1 (2020-09-01)
