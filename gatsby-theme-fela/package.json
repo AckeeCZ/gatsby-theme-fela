@@ -8,10 +8,6 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@ackee/eslint-config": "^3.0.0",
-    "eslint": "^7.25.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-react-app": "^6.0.0",
     "fela": "^11.6.1",
     "fela-monolithic": "^11.6.1",
     "fela-plugin-expand-shorthand": "^11.6.1",
