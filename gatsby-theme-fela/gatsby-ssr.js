@@ -1,33 +1,35 @@
-const React = require('react');
-const PropTypes = require('prop-types');
-const { renderToString } = require('react-dom/server');
-const { renderToSheetList } = require('fela-dom');
-const { wrapWithFelaRenderer } = require('./render-helpers');
-const { FelaProvider } = require('./src/components');
+import React from 'react';
+import { renderToString } from 'react-dom/server';
+import { RendererProvider, ThemeProvider } from 'react-fela';
+import { createRenderer } from 'fela';
+import { renderToSheetList } from 'fela-dom';
 
-/* eslint react/prop-types: 0 */
-exports.wrapRootElement = ({ element }) => {
-  return React.createElement(FelaProvider, null, element);
-};
+import { rendererConfig } from './src/config';
 
-exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadComponents }) => {
-  const { renderer, wrapped } = wrapWithFelaRenderer(bodyComponent);
+import { theme } from './src/styles';
 
-  const bodyHTML = renderToString(wrapped);
+export const replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadComponents }) => {
+  const renderer = createRenderer(rendererConfig);
+
+  const bodyHTML = renderToString(
+    // eslint-disable-next-line react/jsx-filename-extension
+    <RendererProvider renderer={renderer}>
+      <ThemeProvider theme={theme}>{bodyComponent}</ThemeProvider>
+    </RendererProvider>,
+  );
   const sheetList = renderToSheetList(renderer);
 
-  const elements = sheetList.map(({ type, css, media, support }) =>
-    React.createElement('style', {
-      dangerouslySetInnerHTML: {
-        __html: css,
-      },
-      'data-fela-type': type,
-      'data-fela-support': support,
-      key: `${type}-${media}`,
-      media,
-    }),
-  );
-
+  const elements = sheetList.map(({ type, css, media, support, rehydration }) => (
+    <style
+      // eslint-disable-next-line react/no-danger
+      dangerouslySetInnerHTML={{ __html: css }}
+      data-fela-type={type}
+      data-fela-support={support}
+      data-fela-rehydration={rehydration}
+      key={`${type}-${media}`}
+      media={media}
+    />
+  ));
   replaceBodyHTMLString(bodyHTML);
   setHeadComponents(elements);
 };

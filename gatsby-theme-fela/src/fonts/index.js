@@ -1,23 +1,23 @@
-import LatoRegular from "./Lato-Regular.ttf"
-import LatoBlack from "./Lato-Black.ttf"
+import LatoRegular from './Lato-Regular.ttf';
+import LatoBlack from './Lato-Black.ttf';
 
 export default [
   {
-    name: "Lato",
+    name: 'Lato',
     files: [LatoRegular],
     options: {
-      fontStyle: "normal",
-      fontWeight: "400",
-      fontDisplay: "swap",
+      fontStyle: 'normal',
+      fontWeight: '400',
+      fontDisplay: 'swap',
     },
   },
   {
-    name: "Lato",
+    name: 'Lato',
     files: [LatoBlack],
     options: {
-      fontStyle: "normal",
-      fontWeight: "700",
-      fontDisplay: "swap",
+      fontStyle: 'normal',
+      fontWeight: '700',
+      fontDisplay: 'swap',
     },
   },
-]
+];

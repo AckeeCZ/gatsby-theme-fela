@@ -1,9 +1,24 @@
-const React = require('react');
-const { wrapWithFelaRenderer } = require('./render-helpers');
-const { FelaProvider } = require('./src/components');
+import React from 'react';
+import { RendererProvider, ThemeProvider } from 'react-fela';
+import { createRenderer } from 'fela';
+import { rehydrate } from 'fela-dom';
+import { rendererConfig, staticCSS, fonts } from './src/config';
+import { theme } from './src/styles';
+import { applyStaticCSS, applyFonts } from './src/utilities';
 
-exports.wrapRootElement = ({ element }) => {
-  const { wrapped } = wrapWithFelaRenderer(React.createElement(FelaProvider, null, element));
+// eslint-disable-next-line react/prop-types
+export const wrapRootElement = ({ element }) => {
+  const renderer = createRenderer(rendererConfig);
 
-  return wrapped;
+  applyStaticCSS(renderer, staticCSS);
+  applyFonts(renderer, fonts);
+
+  rehydrate(renderer);
+
+  return (
+    // eslint-disable-next-line react/jsx-filename-extension
+    <RendererProvider renderer={renderer}>
+      <ThemeProvider theme={theme}>{element}</ThemeProvider>
+    </RendererProvider>
+  );
 };
