@@ -1,3 +1,5 @@
+![ackee|Gatsby Theme Fela](img/fronted_gatsby_theme_fela.png)
+
 # Gatsby theme Fela
 
 This is a Gatsby theme to extend your awesome website with Fela.
