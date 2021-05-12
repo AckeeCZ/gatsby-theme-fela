@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="1.0.1"></a>
+
+## 1.0.1 (2021-05-12)
+
+### Added
+
+- ✨ Add hero image [[87d8264](https://github.com/AckeeCZ/gatsby-theme-fela/commit/87d8264d8ad721b88489535d91298ca708616825)]
+
 <a name="1.0.0"></a>
 
 ## 1.0.0 (2021-05-05)
