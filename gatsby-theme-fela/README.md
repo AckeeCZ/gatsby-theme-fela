@@ -1,3 +1,5 @@
+![ackee|Gatsby Theme Fela](../img/fronted_gatsby_theme_fela.png)
+
 [![Build Status](https://travis-ci.com/AckeeCZ/gatsby-theme-fela.svg?branch=master)](https://travis-ci.com/AckeeCZ/gatsby-theme-fela)
 [![npm version](https://badge.fury.io/js/gatsby-theme-fela.svg)](https://badge.fury.io/js/gatsby-theme-fela)
 
