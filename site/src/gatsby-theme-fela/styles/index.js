@@ -5,4 +5,6 @@ import customStaticStyles from '!css-loader!./customStaticStyles.css';
 
 export { default as theme } from './theme';
 
-export default [layout, customStaticStyles];
+const styles = [layout, customStaticStyles]
+
+export default styles;

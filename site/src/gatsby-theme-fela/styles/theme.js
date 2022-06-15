@@ -1,4 +1,4 @@
-export default {
+const theme = {
   font: {
     family: "Lato, Verdana, sans-serif",
   },
@@ -8,3 +8,5 @@ export default {
     primary: "rebeccapurple",
   },
 }
+
+export default theme

@@ -8,27 +8,27 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "fela": "^11.6.1",
-    "fela-monolithic": "^11.6.1",
-    "fela-plugin-expand-shorthand": "^11.6.1",
-    "fela-plugin-fallback-value": "^11.6.1",
-    "fela-plugin-friendly-pseudo-class": "^11.6.1",
-    "fela-plugin-named-keys": "^11.6.1",
-    "fela-plugin-prefixer": "^11.6.1",
-    "fela-plugin-unit": "^11.6.1",
-    "fela-plugin-validator": "^11.6.1",
-    "react-fela": "^11.6.1"
+    "fela": "^12.1.2",
+    "fela-monolithic": "^12.1.2",
+    "fela-plugin-expand-shorthand": "^12.1.2",
+    "fela-plugin-fallback-value": "^12.1.2",
+    "fela-plugin-friendly-pseudo-class": "^12.1.2",
+    "fela-plugin-named-keys": "^12.1.2",
+    "fela-plugin-prefixer": "^12.1.2",
+    "fela-plugin-unit": "^12.1.2",
+    "fela-plugin-validator": "^12.1.2",
+    "react-fela": "^12.1.2"
   },
   "peerDependencies": {
-    "gatsby": "^3.3.1",
+    "gatsby": "^4.16.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.16",
-    "@babel/preset-react": "^7.13.13",
+    "@babel/cli": "^7.17.10",
+    "@babel/preset-react": "^7.17.12",
     "babel-core": "^7.0.0-bridge.0",
-    "gitmoji-changelog": "^2.2.0"
+    "gitmoji-changelog": "^2.3.0"
   },
   "keywords": [
     "gatsby",

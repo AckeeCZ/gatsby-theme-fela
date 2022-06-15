@@ -5,21 +5,23 @@
     "site"
   ],
   "dependencies": {
-    "@ackee/eslint-config": "^1.0.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-config-react-app": "^5.2.0",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.0.8",
-    "prettier": "^1.19.1",
-    "prettier-config-ackee": "^0.0.13"
+    "@ackee/eslint-config": "^4.1.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.7.0",
+    "prettier-config-ackee": "^0.0.16"
   },
   "scripts": {
     "format": "prettier --ignore-path .gitignore --config ./prettier.config.js --write **/*.{js,jsx,json}",
     "lint": "eslint --ignore-path .gitignore .",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "build": "yarn workspace gatsby-theme-fela build",
-    "release": "yarn workspace gatsby-theme-fela release"
+    "start": "yarn workspace site start",
+    "release": "yarn workspace gatsby-theme-fela release",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -34,5 +36,8 @@
       "npm run format",
       "git add"
     ]
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
   }
 }

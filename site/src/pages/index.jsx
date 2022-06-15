@@ -3,23 +3,7 @@ import PropTypes from 'prop-types';
 import { connect as connectFela } from 'react-fela';
 import Layout from '../components/Layout';
 import Loader from '../components/Loader';
-
-export const content = () => ({
-  marginTop: '1.25rem',
-});
-
-export const bold = () => ({
-  fontWeight: '700',
-});
-
-export const italic = () => ({
-  fontStyle: 'italic',
-});
-
-export const boldItalic = () => ({
-  fontStyle: 'italic',
-  fontWeight: '700',
-});
+import {bold, content, italic, boldItalic} from '../rules';
 
 const IndexPage = ({ styles }) => {
   return (
