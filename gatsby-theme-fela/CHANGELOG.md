@@ -1,5 +1,21 @@
 # Changelog
 
+<a name="2.0.0"></a>
+
+## 2.0.0 (2022-07-20)
+
+### Changed
+
+- ⬆️ Upgrade gatsby to v4 [[9575731](https://github.com/AckeeCZ/gatsby-theme-fela/commit/9575731ace22201b05e10894c66c3e119fa14878)]
+- ♻️ Change gatsby apis used in ssr for styles server render [[3f23287](https://github.com/AckeeCZ/gatsby-theme-fela/commit/3f2328730a8a11354056a8219ec32345d1e790ad)]
+- ⬆️ Upgrade dependencies [[be61bb6](https://github.com/AckeeCZ/gatsby-theme-fela/commit/be61bb61cf5e534b4cd0d2fabd952fbb9daf22fd)]
+
+### Miscellaneous
+
+- 👷 Use Github actions instead of deprecated Travis [[1bc19ab](https://github.com/AckeeCZ/gatsby-theme-fela/commit/1bc19abbc43bf0ded9581ede38e8f8e6b19fc034)]
+- Bump object-path from 0.11.4 to 0.11.7 [[b148965](https://github.com/AckeeCZ/gatsby-theme-fela/commit/b148965177600ab2f9ad75ea47175c01e73439aa)]
+- Bump path-parse from 1.0.6 to 1.0.7 [[7778f44](https://github.com/AckeeCZ/gatsby-theme-fela/commit/7778f44482ceda2f26d2bbd03693e69ee1eb91bc)]
+
 <a name="1.0.1"></a>
 
 ## 1.0.1 (2021-05-12)
