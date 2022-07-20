@@ -30,7 +30,7 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
 
       - name: Install dependencies
-        run: yarn bootstrap
+        run: yarn install --frozen-lockfile
 
       - name: Build
         run: yarn build
