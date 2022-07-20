@@ -2,6 +2,7 @@ import React from 'react';
 import { RendererProvider, ThemeProvider } from 'react-fela';
 import { createRenderer } from 'fela';
 import { rehydrate } from 'fela-dom';
+
 import { rendererConfig, staticCSS, fonts } from './src/config';
 import { theme } from './src/styles';
 import { applyStaticCSS, applyFonts } from './src/utilities';
