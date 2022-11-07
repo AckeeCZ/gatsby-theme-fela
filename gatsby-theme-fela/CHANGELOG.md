@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="3.0.0"></a>
+## 3.0.0 (2022-11-07)
+
+### Changed
+
+- ⬆️ Upgrade fela to v12 [[15b88f8](https://github.com/AckeeCZ/gatsby-theme-fela/commit/15b88f8303b38851347f6de5ca8b5d7ccc3633cc)]
+
+
 <a name="2.0.0"></a>
 
 ## 2.0.0 (2022-07-20)
