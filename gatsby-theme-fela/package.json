@@ -8,16 +8,16 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "fela": "^11.6.1",
-    "fela-monolithic": "^11.6.1",
-    "fela-plugin-expand-shorthand": "^11.6.1",
-    "fela-plugin-fallback-value": "^11.6.1",
-    "fela-plugin-friendly-pseudo-class": "^11.6.1",
-    "fela-plugin-named-keys": "^11.6.1",
-    "fela-plugin-prefixer": "^11.6.1",
-    "fela-plugin-unit": "^11.6.1",
-    "fela-plugin-validator": "^11.6.1",
-    "react-fela": "^11.6.1"
+    "fela": "^12.2.0",
+    "fela-monolithic": "^12.2.0",
+    "fela-plugin-expand-shorthand": "^12.2.0",
+    "fela-plugin-fallback-value": "^12.2.0",
+    "fela-plugin-friendly-pseudo-class": "^12.2.0",
+    "fela-plugin-named-keys": "^12.2.0",
+    "fela-plugin-prefixer": "^12.2.0",
+    "fela-plugin-unit": "^12.2.0",
+    "fela-plugin-validator": "^12.2.0",
+    "react-fela": "^12.2.0"
   },
   "peerDependencies": {
     "gatsby": "^4.18.0",
