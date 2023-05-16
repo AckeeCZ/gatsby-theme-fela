@@ -1,12 +1,20 @@
 # Changelog
 
+<a name="3.1.0"></a>
+
+## 3.1.0 (2023-05-16)
+
+### Added
+
+- ➕ Add fela-plugin-embedded [[4c395e7](https://github.com/AckeeCZ/gatsby-theme-fela/commit/4c395e750dd4bbb76d30f93f96473ab9b9dd1c4c)]
+
 <a name="3.0.0"></a>
+
 ## 3.0.0 (2022-11-07)
 
 ### Changed
 
 - ⬆️ Upgrade fela to v12 [[15b88f8](https://github.com/AckeeCZ/gatsby-theme-fela/commit/15b88f8303b38851347f6de5ca8b5d7ccc3633cc)]
-
 
 <a name="2.0.0"></a>
 
