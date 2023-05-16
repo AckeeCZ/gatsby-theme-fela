@@ -3,6 +3,7 @@ import felaPluginUnit from 'fela-plugin-unit';
 import felaPluginNamedKeys from 'fela-plugin-named-keys';
 import felaPluginFriendlyPseudoClass from 'fela-plugin-friendly-pseudo-class';
 import felaPluginExpandShorthand from 'fela-plugin-expand-shorthand';
+import felaPluginEmbedded from 'fela-plugin-embedded';
 import prefixer from 'fela-plugin-prefixer';
 import fallbackValue from 'fela-plugin-fallback-value';
 
@@ -21,6 +22,9 @@ const plugins = [
   felaPluginNamedKeys(namedKeys),
 
   felaPluginExpandShorthand(true),
+
+  // docs: https://github.com/robinweser/fela/tree/master/packages/fela-plugin-embedded
+  felaPluginEmbedded(),
 
   prefixer(),
 
