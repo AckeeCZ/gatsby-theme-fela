@@ -5881,6 +5881,14 @@ fela-monolithic@^12.2.0:
     isobject "^3.0.1"
     string-hash "^1.1.3"
 
+fela-plugin-embedded@^12.2.1:
+  version "12.2.1"
+  resolved "https://registry.yarnpkg.com/fela-plugin-embedded/-/fela-plugin-embedded-12.2.1.tgz#3da663750f35e344420d48ba249a4799d33b1176"
+  integrity sha512-fexRLSbl3uvB2SguS7aWjGbUNH9+s1YjPXSIUybPxi0Send8oKPvRbPqGGts3MpiBj/gz4VateeIRJLndq7CZA==
+  dependencies:
+    fast-loops "^1.0.0"
+    isobject "^3.0.1"
+
 fela-plugin-expand-shorthand@^12.2.0:
   version "12.2.0"
   resolved "https://registry.yarnpkg.com/fela-plugin-expand-shorthand/-/fela-plugin-expand-shorthand-12.2.0.tgz#e458f1c21b3502e87d7af5e122667b75719b24b5"

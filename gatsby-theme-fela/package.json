@@ -10,6 +10,7 @@
   "dependencies": {
     "fela": "^12.2.0",
     "fela-monolithic": "^12.2.0",
+    "fela-plugin-embedded": "^12.2.1",
     "fela-plugin-expand-shorthand": "^12.2.0",
     "fela-plugin-fallback-value": "^12.2.0",
     "fela-plugin-friendly-pseudo-class": "^12.2.0",
